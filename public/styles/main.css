@@ -1,0 +1,351 @@
+/*color: Negro principal
+#0D0D0D
+*/
+
+/*color:header
+#333333
+*/
+
+
+/*color: Dorado
+#D4AF37
+*/
+
+/*color: Dorado
+#D4AF37
+*/
+
+/*color: vinotinto
+#4B1D1D
+*/
+
+/*color: hueso
+#F5F5F5
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+
+body{
+    color: #F5F5F5;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    display: grid;
+    grid-template-rows:auto 1fr auto;
+    gap: 2rem;
+   background-color: #0D0D0D; 
+}
+
+main{
+    display: grid;
+    gap: 2rem;
+}
+
+nav{
+    background-color:#333333 ;
+}
+
+nav ul{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav ul li a{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.reservation{
+   margin-left: 1rem;
+    color: #D4AF37;
+}
+
+.hero{
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    text-align: center;
+}
+
+.hero h2{
+    color: #D4AF37;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+
+
+.image1,  .image3{
+    object-fit: cover;
+    height: 164px;
+    width: 103px;
+}
+
+.image2{
+    object-fit: cover;
+    width: 121px; 
+    height: 206px;
+}
+
+.food-image{
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 0.5rem;
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+     gap: 2rem;
+     font-size: clamp(1.4rem, 2vw, 1.5rem);
+}
+
+.food article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   
+    text-align: center;
+}
+
+.container-image{
+    box-shadow: 0 0 10px 3px #D4AF37;
+   
+}
+
+.c-1,  .c-3{
+    height: 164px;
+}
+.c-2{
+    height:206px;
+}
+
+.menu-sect{
+    text-align: center;
+}
+
+.menu-sect h1{
+    color: #D4AF37;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.menu-sect p{
+
+    color: #F5F5F5;
+    text-align: center;
+    width: 88%;
+    font-size: clamp(1.4rem, 2vw, 1.5rem);
+}
+
+.menu-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.menu-sect div{
+    display: grid;
+    gap: 1rem;
+}
+
+.menu-sect div h1:first-child{
+   transform: translateX(5rem);
+}
+
+.menu-sect div h1:nth-child(3){
+    transform: translateX(-5.4rem);
+}
+
+
+.menu-sect button{
+    background-color: #4B1D1D;
+    color: #F5F5F5;
+    font-weight: 800;
+    border: none;
+    width: 286px;
+    height: 51px;
+    border-radius: 10px;
+    font-size: clamp(1.3rem, 2vw, 1.5rem);
+    font-family: "Josefin Slab", serif;
+    cursor: pointer;    
+}
+
+.event-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.event-sect h1{
+    color: #D4AF37;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.event-sect p{
+
+    color: #F5F5F5;
+    text-align: center;
+    width: 88%;
+    font-size: clamp(1.4rem, 2vw, 1.5rem);
+}
+
+.map-sect{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+flex-direction: column  ;
+gap: 1.5rem;
+
+}
+
+.map-sect h1{
+    color: #D4AF37;
+    font-size: clamp(1.7rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.reservation-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.reservation-sect h1{
+    color: #D4AF37;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.reservation-sect form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.reservation-sect label{
+    text-align: start !important;
+    color: #F5F5F5;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.reservation-sect input{
+    color: #F5F5F5;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #f0f0f0;
+    width: 286px;
+    height: 51px;
+    font-size: clamp(1.3rem, 2vw, 1.5rem);
+    font-family: "Josefin Slab", serif;
+    cursor: pointer;    
+}
+
+.reservation-sect button{
+    background-color: #4B1D1D;
+    color: #F5F5F5;
+    font-weight: 800;
+    border: none;
+    width: 286px;
+    height: 51px;
+    border-radius: 10px;
+    font-size: clamp(1.3rem, 2vw, 1.5rem);
+    font-family: "Josefin Slab", serif;
+    cursor: pointer;    
+}
+
+input[type="date"]{
+color: #F5F5F5;
+} 
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #F5F5F5;
+    font-size: clamp(1.1rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+    gap: 2rem;
+}
+
+.horarios h1{
+    color: #D4AF37;
+    font-size: clamp(1.7rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.horarios ul{
+    list-style-type: none;
+    display: grid;
+   gap: 1rem;
+}
+
+
+.horarios span{
+    color: #D4AF37;
+}
+
+
+.comunidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    color: #F5F5F5;
+    font-size: clamp(1rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+    gap: 2rem;
+}
+
+.comunidad h1{
+    color: #D4AF37;
+    font-size: clamp(1.7rem, 5vw, 3rem);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.comunidad img{
+    object-fit: contain;
+    height: 55px;
+    width: 55px;
+}
